@@ -1,0 +1,41 @@
+
+.country {
+    background-color: blanchedalmond;
+    border: 5px solid seagreen;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    /* width: 50%; */
+    /* margin-left: 250px; */
+    margin-top: 10px;
+    padding: 10px;
+}
+.country img {
+    width: 200px;
+}
+p{
+    color: brown;
+}
+h4{
+    font-size: large;
+    font-weight: 600;
+    color: seagreen;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .country {
+        width: 80%; 
+        margin-left: 10px; 
+    }
+
+    .country img {
+        width: 100%; 
+    }
+}
+
+/* Media query for even smaller screens */
+@media screen and (max-width: 480px) {
+    .country {
+        width: 100%; 
+        margin-left: 0; }
+}
